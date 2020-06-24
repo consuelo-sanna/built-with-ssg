@@ -6,3 +6,6 @@ permalink: _redirects
 {% for item in news %}
 / /{{item.country}}/index.html 200 Country={{item.country}}
 {% endfor %}}
+
+{# if no country is found it goes to 404 #}
+/ /gb/index.html 404
