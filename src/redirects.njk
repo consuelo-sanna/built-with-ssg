@@ -1,0 +1,8 @@
+---
+permalink: _redirects
+---
+
+{# automatic generate a redirect file for every country. you can see it in the dist folder #}
+{% for item in news %}
+/ /{{item.country}}/index.html 200 Country={{item.country}}
+{% endfor %}}

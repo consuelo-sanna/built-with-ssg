@@ -11,4 +11,6 @@ layout: base.njk
   </p>
 </div>
 
-{#  https://newsapi.org/v2/top-headlines\?country\=us\&apiKey\=c0476891b19048a3889de6ffdd04df31 #}
+{% for item in news %}
+  <a href="/{{item.country}}">{{item.country}}</a>
+{% endfor %}
