@@ -1,0 +1,15 @@
+{
+  "name": "built-with-ssg",
+  "version": "1.0.0",
+  "description": "Site generated with Eleventy",
+  "main": "index.html",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "author": "Consuelo Sanna",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
